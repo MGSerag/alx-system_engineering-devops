@@ -3,9 +3,12 @@
 /**
  * main - Entry point
  *
- * Description: Prints all possible different combinations of three digits.
- * Numbers are separated by a comma followed by a space, and are printed in ascending order.
- * The three digits must be different, and the smallest combination is printed.
+ * Description: Prints all possible different
+ * combinations of three digits.
+ * Numbers are separated by a comma followed by a space,
+ * and are printed in ascending order.
+ * The three digits must be different,
+ * and the smallest combination is printed.
  *
  * Return: Always 0 (Success)
  */
