@@ -24,3 +24,5 @@ Prints all the numbers of base 16 in lowercase, followed by a new line.
 Prints all possible combinations of single-digit numbers, separated by a comma and a space, in ascending order.
 ## 100-print_comb3.c
 Prints all possible different combinations of two digits, separated by a comma and a space, in ascending order.
+## 101-print_comb4.c
+Prints all possible different combinations of three digits, separated by a comma and a space, in ascending order.
