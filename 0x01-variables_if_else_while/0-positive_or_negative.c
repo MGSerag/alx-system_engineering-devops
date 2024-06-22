@@ -1,17 +1,21 @@
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
-/* stupid func */
-int main(void)
-{
 
 /**
- * Function that generates random number
- * and checks if number is positive, negative
- * or zero
+ * main - Entry point
+ *
+ * Function that generates a random number
+ * and checks if the number is positive, negative,
+ * or zero.
+ *
+ * Return: Always 0 (Success)
  */
 
+int main(void)
+{
 
 int n;
 
