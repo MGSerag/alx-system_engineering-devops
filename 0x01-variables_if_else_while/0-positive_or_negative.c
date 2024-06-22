@@ -2,14 +2,17 @@
 #include <time.h>
 #include <stdio.h>
 
+/* stupid func */
+int main(void)
+{
+
 /**
  * Function that generates random number
  * and checks if number is positive, negative
  * or zero
  */
 
-int main(void)
-{
+
 int n;
 
 srand(time(0));
@@ -27,6 +30,6 @@ else
 {
 printf("%d is negative\n", n);
 }
-
+/* return 0 */
 return (0);
 }
