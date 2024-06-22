@@ -16,3 +16,5 @@ Prints the alphabet in lowercase, followed by a new line, excluding 'q' and 'e'.
 Prints all single digit numbers of base 10 starting from 0, followed by a new line.
 ## 6-print_numberz.c
 Prints all single digit numbers of base 10 starting from 0, followed by a new line without using any variable of type char.
+## 7-print_tebahpla.c
+Prints the lowercase alphabet in reverse, followed by a new line.
