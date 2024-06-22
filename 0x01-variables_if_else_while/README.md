@@ -12,3 +12,5 @@ Prints the alphabet in lowercase, followed by a new line.
 Prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 ## 4-print_alphabt.c
 Prints the alphabet in lowercase, followed by a new line, excluding 'q' and 'e'.
+## 5-print_numbers.c
+Prints all single digit numbers of base 10 starting from 0, followed by a new line.
