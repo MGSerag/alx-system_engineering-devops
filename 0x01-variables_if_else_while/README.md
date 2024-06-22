@@ -8,3 +8,5 @@ Generates a random number and prints the last digit of the number, checking if i
 
 ## 2-print_alphabet.c
 Prints the alphabet in lowercase, followed by a new line.
+## 3-print_alphabets.c
+Prints the alphabet in lowercase, and then in uppercase, followed by a new line.
