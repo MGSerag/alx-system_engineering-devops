@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  *
- * Description: Prints the alphabet in lowercase, followed by a new line, excluding 'q' and 'e'.
+ * Description: Prints the alphabet in lowercase,
+ * followed by a new line, excluding 'q' and 'e'.
  *
  * Return: Always 0 (Success)
  */
