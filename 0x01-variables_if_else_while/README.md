@@ -26,3 +26,5 @@ Prints all possible combinations of single-digit numbers, separated by a comma a
 Prints all possible different combinations of two digits, separated by a comma and a space, in ascending order.
 ## 101-print_comb4.c
 Prints all possible different combinations of three digits, separated by a comma and a space, in ascending order.
+## 102-print_comb5.c
+Prints all possible combinations of two two-digit numbers, separated by a comma and a space, in ascending order.
