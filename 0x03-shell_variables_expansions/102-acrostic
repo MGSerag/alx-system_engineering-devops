@@ -1,0 +1,14 @@
+#!/bin/bash
+if [ -z "$1" ]; then
+    echo "Usage: $0 <file>"
+    exit 1
+fi
+while IFS= read -r line; do
+    # Extract the first character of each line
+    first_char=$(echo "$line" | cut -c1)
+    # Print the first character (if it's a letter)
+    if [[ "$first_char" =~ [A-Za-z] ]]; then
+        echo -n "$first_char"
+    fi
+done < "$1"  # Read input from the specified file
+echo  # Print newline at the end
