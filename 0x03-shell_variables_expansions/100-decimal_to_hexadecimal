@@ -1,9 +1,3 @@
 #!/bin/bash
-
-if [ -z "$DECIMAL" ]; then
-    echo "DECIMAL environment variable is not set."
-    exit 1
-fi
-
 printf "%x
 " "$DECIMAL"
