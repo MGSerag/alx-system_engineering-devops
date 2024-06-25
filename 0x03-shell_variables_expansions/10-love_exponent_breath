@@ -1,3 +1,2 @@
 #!/bin/bash
-printf "%d
-" $(echo "$BREATH^$LOVE" | bc)
+printf "%d\n" $(echo "$BREATH^$LOVE" | bc)
