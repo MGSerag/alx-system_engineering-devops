@@ -1,0 +1,22 @@
+#!/bin/bash
+
+encode_rot13() {
+    echo "$1" | tr "a-zA-Z" "n-za-mN-ZA-M"
+}
+
+decode_rot13() {
+    echo "$1" | tr "n-za-mN-ZA-M" "a-zA-Z"
+}
+
+if [ $# -eq 0 ]; then
+    echo "Usage: $0 <text>"
+    exit 1
+fi
+
+text="$1"
+
+encoded_text=$(encode_rot13 "$text")
+echo "Encoded (rot13): $encoded_text"
+
+decoded_text=$(decode_rot13 "$encoded_text")
+echo "Decoded (rot13): $decoded_text"
