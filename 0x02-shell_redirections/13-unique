@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Read words from input, sort them, and find unique words
-sort | uniq -u
+sort | uniq -u | sort
