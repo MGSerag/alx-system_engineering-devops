@@ -1,3 +1,2 @@
 #!/bin/bash
-printf "%d
-" $((WATER + STIR))
+printf "%d\n" $((WATER + STIR))
