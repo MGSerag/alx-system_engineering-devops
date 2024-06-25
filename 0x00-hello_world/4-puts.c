@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * put_string - Puts a string to the standard output
+ * main - Puts a string to the standard output
  *
  * Description: This function takes a string as input and prints
  * it to the standard output followed by a new line.
