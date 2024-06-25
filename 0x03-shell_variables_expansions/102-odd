@@ -1,12 +1,2 @@
 #!/bin/bash
-
-counter=1
-
-while IFS= read -r line; do
-    if [ $((counter % 2)) -eq 1 ]; then
-        echo "$line"
-    fi
-    ((counter++))
-done
-
-echo
+awk 'NR % 2 == 1' 
