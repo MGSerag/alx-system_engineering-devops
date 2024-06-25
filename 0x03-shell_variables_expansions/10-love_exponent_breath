@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%d\n" $(echo "$BREATH^$LOVE" | bc)
+printf "%d\n" $(awk "BEGIN {print $BREATH^$LOVE}")
