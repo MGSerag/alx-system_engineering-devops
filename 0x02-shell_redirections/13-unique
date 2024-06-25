@@ -1,0 +1,7 @@
+#!/bin/bash
+# Read input into an array
+readarray -t words
+
+# Print words that appear exactly once, sorted
+printf "%s
+" "${words[@]}" | sort | uniq -u
