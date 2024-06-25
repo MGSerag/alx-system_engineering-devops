@@ -1,8 +1,3 @@
 #!/bin/bash
-
-num1=${WATER}
-num2=${STIR}
-
-result=$((num1 + num2))
-
-echo "Result of adding WATER and STIR: $result"
+printf "%d
+" $((WATER + STIR))
