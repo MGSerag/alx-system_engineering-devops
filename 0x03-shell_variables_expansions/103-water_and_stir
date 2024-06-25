@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%d\n" $((WATER + STIR))
+printf "%s" $(printf "obase=%s; %s + %s\n" "$bestchol" "$(printf "ibase=%s; %s\n" "$water" "$WATER" | bc)" "$(printf "ibase=%s; %s\n" "$stir" "$STIR" | bc)" | bc)
